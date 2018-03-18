@@ -1,5 +1,6 @@
 <?php require_once 'views/header.php' ?>
 
+
 <nav>
   <div class="navbar">
     <ul>
@@ -28,7 +29,8 @@
 
   
 
-
+//commands to get size and path of image
+// to create a thumbnail from
   $f = exif_read_data('images/bg.jpeg');
 
 //var_dump($f);
