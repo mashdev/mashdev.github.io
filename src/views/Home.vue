@@ -1,23 +1,14 @@
 <template>
-  <div class="home">
-    <div class="banner">
-      <Landing msg="mashdev" />
+  <div class="container">
+    <div class="">
+      <Landing msg="mashdev.github.io" />
     </div>
-    <div class="about">
-      <p>About</p>
-    </div>
-    <div class="projects">
-      <p> Projects </p>
-    </div>
-    <div class="contact">
-      <p> Contact </p>
-    </div>
+    
   </div>
 </template>
 
 <script>
-/* @ is an alias to /src */
-import Landing from "@/components/Landing.vue";
+import Landing from '@/components/Landing.vue';
 
 export default {
   name: "landing",
@@ -25,4 +16,13 @@ export default {
     Landing
   } 
 };
+
 </script>
+
+<style>
+body {
+  background-color: rgb(54, 54, 54);
+}
+
+
+</style>
